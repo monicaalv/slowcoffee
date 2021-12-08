@@ -1,0 +1,16 @@
+/*
+Theme Name: Divi Child
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Template: Divi
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
+Tags: responsive-layout,one-column,two-columns,three-columns,four-columns,left-sidebar,right-sidebar,custom-background,custom-colors,featured-images,full-width-template,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready
+Version: 4.9.10.1638529538
+Updated: 2021-12-03 11:05:38
+
+*/
+
+body {
+  background-color: pink;
+}
