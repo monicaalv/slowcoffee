@@ -28,8 +28,8 @@ get_header();
       font-size: 185px;
     }
 
-    .fullbredde {
-      width: 100vw;
+    .forside {
+      height: 100vh;
     }
 
 
@@ -51,7 +51,7 @@ get_header();
 	
 
   <section id="section1">
-    <div class="container ms-0">
+    <div class="container ms-0 mt-5 forside">
       <div class="row">
         <div class="col">
           <h1 class="ml-0">Kaffe & Tricks</h1>
