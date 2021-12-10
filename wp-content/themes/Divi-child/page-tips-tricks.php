@@ -73,6 +73,19 @@ get_header();
       margin-top: 8rem;
     }
 
+    .container .row h2{
+      font-size: 4rem;
+    }
+    .btn{
+      background-color:  #3C6B39;
+      border: none;
+    }
+    .btn:hover{
+      background-color: var(--h2-ofwhite);
+      color: #EC6233;
+      border: none;
+    }
+
 
 /*     @media (max-width: @screen-xs) {
     
@@ -98,7 +111,7 @@ get_header();
 	
 
   <section id="section1">
-    <div class="container ms-0 me-0 mt-5 forside">
+    <div class="container ms-0 me-0 forside">
       <div class="row">
         <div class="col">
           <h1 class=" text-uppercase">Kaffe & Tricks</h1>
@@ -115,7 +128,7 @@ helt styr på de forskellige slags kaffe.</p>
     <div class="container kaffe1">
       <div class="row">
         <div class="col-md-6">
-         <img class="img-fluid" src="video-billeder/espresso-infog.jpg" alt="espresso">
+         <img src="img/espresso-infog-100.jpg" class="img-fluid" alt="espresso">
         </div>
         <div class="col">
          <h2 class="text-uppercase font-weight-bold">Espresso</h2>
@@ -187,7 +200,7 @@ Den er simpel og enkel men samtidigt også kraftfuld og cremet.
           <p>Så tjek vores spændende udvalg af økologiske
 kaffebønner ud og vælg dem, <br> der passer bedst
 til dig og din smag</p>
-<button class="btn">Se Produkter</button>
+<button class="btn btn-light text-uppercase">Se Produkter</button>
         </div>
       </div>
 
