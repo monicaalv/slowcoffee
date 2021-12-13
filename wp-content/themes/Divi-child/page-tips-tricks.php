@@ -14,6 +14,7 @@ get_header();
 
 <!-- Egen CSS -->
 <style>
+  
     :root {
       --blue: #4171A0;
       --h1: #9EC3E0;
@@ -28,14 +29,14 @@ get_header();
 
     }
 
-	
-    h1{
+ 
+    section h1{
       color: var(--h1);
       font-family: 'Prompt', sans-serif;
       font-weight: bold;
-      font-size: 10rem;
-      margin-top: 28rem;
-      line-height: 148px;
+      font-size: 6rem;
+      margin-top: 6rem;
+      line-height: 84px;
     }
 
     h2{
@@ -44,7 +45,7 @@ get_header();
     }
 
     .forside, .klogere {
-      height: 100vh;
+      height: 80vh;
     }
     #section2 {
       height: 65vh;
@@ -57,7 +58,7 @@ get_header();
 
     p{
       font-family: 'Poppins', sans-serif;
-      font-weight: lighter;
+      font-weight: normal;
       font-size: 20px;
     }
 
@@ -74,7 +75,8 @@ get_header();
     }
 
     .container .row h2{
-      font-size: 4rem;
+      font-size: 3rem;
+      margin-top: 2rem;
     }
     .btn{
       background-color:  #3C6B39;
@@ -87,13 +89,72 @@ get_header();
     }
 
 
-/*     @media (max-width: @screen-xs) {
     
+  
+  
+    @media (min-width: 768px)  {
+
+    section h1{
+      font-size: 9rem;
+      margin-top: 18rem;
+      line-height: 119px;
+    }
+    .container .row h2 {
+    font-size: 3rem;
+    margin-top: 10rem;
 }
 
-@media (max-width: @screen-sm) {
-   
-} */
+      .forside, .klogere {
+      height: 68vh;
+    }
+
+    #section2 {
+      height: 55vh;
+    }
+
+     }
+
+
+     @media (min-width: 820px)  { 
+    section h1{
+      font-size: 10rem;
+      margin-top: 19rem;
+      line-height: 148px;
+    }
+    .klogere h2{
+      font-size: 7rem;
+      color: var(--h2-ofwhite);
+      margin-top: 8rem;
+    }
+    .container .row h2{
+      font-size: 5rem;
+      margin-top: 4rem;
+    }
+
+    .forside, .klogere {
+      height: 100vh;
+    }
+
+    #section2 {
+      height: 55vh;
+    }
+
+     }
+     @media (min-width: 992px)  { 
+       
+    section  h1{
+        margin-top: 26rem;
+      
+     }
+
+     .container .row h2{
+      font-size: 5rem;
+      
+    }
+    }
+
+
+
 
 
 
@@ -112,6 +173,7 @@ get_header();
 
   <section id="section1">
     <div class="container ms-0 me-0 forside">
+      <img src="images/b&wTest1.jpg" alt="kaffe">
       <div class="row">
         <div class="col">
           <h1 class=" text-uppercase">Kaffe & Tricks</h1>
@@ -128,7 +190,7 @@ helt styr på de forskellige slags kaffe.</p>
     <div class="container kaffe1">
       <div class="row">
         <div class="col-md-6">
-         <img src="img/espresso-infog-100.jpg" class="img-fluid" alt="espresso">
+         <img src="espresso-infog.png" class="img-fluid" alt="espresso">
         </div>
         <div class="col">
          <h2 class="text-uppercase font-weight-bold">Espresso</h2>
@@ -144,7 +206,7 @@ Man kan også gøre brug af en espressokande, hvor du koger en lille mængde van
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-6">
-         <img class="img-fluid" src="" alt="">
+         <img  src="img/cappucino-infog.png" class="img-fluid img-responsive" alt="cappucino">
         </div>
         <div class="col">
          <h2 class="text-uppercase">Cappuccino</h2>
@@ -200,7 +262,7 @@ Den er simpel og enkel men samtidigt også kraftfuld og cremet.
           <p>Så tjek vores spændende udvalg af økologiske
 kaffebønner ud og vælg dem, <br> der passer bedst
 til dig og din smag</p>
-<button class="btn btn-light text-uppercase">Se Produkter</button>
+<a class="btn btn-light text-uppercase" href="http://monicaamundsen.com/kea/15_eksamen/slowcoffee/shop/">Se Produkter</a>
         </div>
       </div>
 
