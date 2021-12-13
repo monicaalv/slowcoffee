@@ -95,7 +95,7 @@ get_header();
     @media (min-width: 768px)  {
 
     section h1{
-      font-size: 9rem;
+      font-size: 8rem;
       margin-top: 18rem;
       line-height: 119px;
     }
@@ -117,7 +117,7 @@ get_header();
 
      @media (min-width: 820px)  { 
     section h1{
-      font-size: 10rem;
+      font-size: 9rem;
       margin-top: 19rem;
       line-height: 148px;
     }
@@ -132,18 +132,18 @@ get_header();
     }
 
     .forside, .klogere {
-      height: 100vh;
+      height: 105vh;
     }
 
     #section2 {
-      height: 55vh;
+      height: 67vh;
     }
 
      }
      @media (min-width: 992px)  { 
        
     section  h1{
-        margin-top: 26rem;
+        margin-top: 20rem;
       
      }
 
@@ -172,12 +172,12 @@ get_header();
 	
 
   <section id="section1">
-    <div class="container ms-0 me-0 forside">
-      <img src="images/b&wTest1.jpg" alt="kaffe">
+    <div class="container forside parallax">
+      
       <div class="row">
         <div class="col">
-          <h1 class=" text-uppercase">Kaffe & Tricks</h1>
-          <p>Hvad er det nu lige forskellen er på en cortado og en cappuccino? <br>
+          <h1 class=" text-uppercase">Kaffe <br> & Tricks</h1>
+          <p class="mb-5">Hvad er det nu lige forskellen er på en cortado og en cappuccino? <br>
 Der er mange kaffevariationer derude og der er ærlig talt ikke 
 til at holde styr på. <br> Der for har vi lavet en lille guide, så du kan få
 helt styr på de forskellige slags kaffe.</p>
@@ -190,7 +190,7 @@ helt styr på de forskellige slags kaffe.</p>
     <div class="container kaffe1">
       <div class="row">
         <div class="col-md-6">
-         <img src="espresso-infog.png" class="img-fluid" alt="espresso">
+         <img src="https://monicaamundsen.com/kea/15_eksamen/slowcoffee/wp-content/themes/Divi-child/images/espresso-infog.png" class="img-fluid" alt="espresso">
         </div>
         <div class="col">
          <h2 class="text-uppercase font-weight-bold">Espresso</h2>
@@ -206,10 +206,10 @@ Man kan også gøre brug af en espressokande, hvor du koger en lille mængde van
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-6">
-         <img  src="img/cappucino-infog.png" class="img-fluid img-responsive" alt="cappucino">
+         <img  src="https://monicaamundsen.com/kea/15_eksamen/slowcoffee/wp-content/themes/Divi-child/images/cappucino-infog.png" class="img-fluid img-responsive" alt="cappucino">
         </div>
         <div class="col">
-         <h2 class="text-uppercase">Cappuccino</h2>
+         <h2 class="text-uppercase">Cappucino</h2>
          <p>Er Espresso lige stærkt nok? Så er en cremet Cappucino måske lige noget for dig. <br>
 En cappuccino tilberedes ved en kombination af tre lige dele espresso, varm mælk og mælkeskum. Espressoen og mælken blandes og siden hældes mælkeskummet forsigtigt på toppen af kaffen, som et tykt, cremet låg.Brug gerne mælk med en højere fedtindhold, da det gør kaffecremen endnu fyldigere. 
 
@@ -223,7 +223,7 @@ En cappuccino tilberedes ved en kombination af tre lige dele espresso, varm mæl
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-6">
-         <img class="img-fluid" src="" alt="">
+         <img class="img-fluid" src="https://monicaamundsen.com/kea/15_eksamen/slowcoffee/wp-content/themes/Divi-child/images/americano-infog.png" alt="americano">
         </div>
         <div class="col">
          <h2 class="text-uppercase">Americano</h2>
@@ -240,7 +240,7 @@ Da den består af dobbelt så meget vand er den derfor ikke ligeså bitter i sma
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-6">
-         <img class="img-fluid" src="" alt="">
+         <img class="img-fluid" src="https://monicaamundsen.com/kea/15_eksamen/slowcoffee/wp-content/themes/Divi-child/images/cortado-infog.png" alt="cortado">
         </div>
         <div class="col">
          <h2 class="text-uppercase">Cortado</h2>
