@@ -172,8 +172,8 @@ get_header();
 	
 
   <section id="section1">
-    <div class="container forside parallax">
-      
+  <!-- <img src="https://monicaamundsen.com/kea/15_eksamen/slowcoffee/wp-content/themes/Divi-child/images/b&wTest1.jpg" class="img-fluid" alt="kaffe"> -->
+    <div class="container forside d-grid parallax">
       <div class="row">
         <div class="col">
           <h1 class=" text-uppercase">Kaffe <br> & Tricks</h1>
