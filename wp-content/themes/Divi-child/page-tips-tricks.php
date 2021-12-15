@@ -12,6 +12,8 @@ get_header();
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
 
+
+
 <!-- Egen CSS -->
 <style>
   
@@ -28,6 +30,21 @@ get_header();
     
 
     }
+    .parallax{
+      padding: 150px 0;
+      background-image: url(https://monicaamundsen.com/kea/15_eksamen/slowcoffee/wp-content/themes/Divi-child/images/b&wTest1.jpg);
+      width:100%;
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      transition: 0.2s;
+
+    }
+    .parallax p{
+      color: #FCF3E7;
+      font-size: 17px;
+    }
 
  
     section h1{
@@ -35,7 +52,7 @@ get_header();
       font-family: 'Prompt', sans-serif;
       font-weight: bold;
       font-size: 6rem;
-      margin-top: 6rem;
+      margin-top: 2rem;
       line-height: 84px;
     }
 
@@ -96,9 +113,10 @@ get_header();
 
     section h1{
       font-size: 8rem;
-      margin-top: 18rem;
+      margin-top: 14rem;
       line-height: 119px;
     }
+   
     .container .row h2 {
     font-size: 3rem;
     margin-top: 10rem;
@@ -121,6 +139,13 @@ get_header();
       margin-top: 19rem;
       line-height: 148px;
     }
+
+    .parallax p{
+      font-size: 20px;
+    }
+
+
+
     .klogere h2{
       font-size: 7rem;
       color: var(--h2-ofwhite);
@@ -132,12 +157,16 @@ get_header();
     }
 
     .forside, .klogere {
-      height: 105vh;
+      height: 111vh;
     }
 
     #section2 {
       height: 67vh;
     }
+
+    
+   
+}
 
      }
      @media (min-width: 992px)  { 
@@ -161,20 +190,33 @@ get_header();
 
 </style>
 
+<head>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3C8YLCG69R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3C8YLCG69R');
+</script>
+
+</head>
 
 
 
 
 <body>
+  
 
     <!-- Indsæt html her -->
 	
 
   <section id="section1">
-  <!-- <img src="https://monicaamundsen.com/kea/15_eksamen/slowcoffee/wp-content/themes/Divi-child/images/b&wTest1.jpg" class="img-fluid" alt="kaffe"> -->
-    <div class="container forside d-grid parallax">
-      <div class="row">
+  <!-- <img src=" " class="img-fluid" alt="kaffe"> -->
+    <div class="forside parallax">
+      <div class="container">
         <div class="col">
           <h1 class=" text-uppercase">Kaffe <br> & Tricks</h1>
           <p class="mb-5">Hvad er det nu lige forskellen er på en cortado og en cappuccino? <br>
@@ -255,7 +297,7 @@ Den er simpel og enkel men samtidigt også kraftfuld og cremet.
     </div>
   </section>
   <section id="section2">
-    <div class="container klogere mt-5 ms-0">
+    <div class="container klogere mt-5">
       <div class="row">
         <div class="col mt-5">
           <h2 class="text-uppercase">Er du mon blevet lidt klogere nu?</h2>
