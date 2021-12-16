@@ -42,13 +42,13 @@ get_header();
 
     }
     .parallax p{
-      color: #FCF3E7;
+      color: #FFF1DE;
       font-size: 17px;
     }
 
  
     section h1{
-      color: var(--h1);
+      color: #EC6233;
       font-family: 'Prompt', sans-serif;
       font-weight: bold;
       font-size: 6rem;
@@ -69,9 +69,7 @@ get_header();
       background-color: var(--green);
     }
 
-    #section1{
-      background-color: var(--blue);
-    }
+   
 
     p{
       font-family: 'Poppins', sans-serif;
@@ -140,14 +138,14 @@ get_header();
      @media (min-width: 820px)  { 
     section h1{
       font-size: 9rem;
-      margin-top: 19rem;
+      margin-top: 10rem;
       line-height: 148px;
     }
 
     .parallax p{
-      font-size: 20px;
+      font-size: 23px;
     }
-
+/* --burger-- */
     .toggle-icon::after{
       margin-top: -41px;
     }
@@ -165,7 +163,7 @@ get_header();
     }
 
     .forside, .klogere {
-      height: 111vh;
+      height: 105vh;
     }
 
     #section2 {
