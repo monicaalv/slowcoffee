@@ -106,6 +106,18 @@ get_header();
     .et_pb_menu_0_tb_header.et_pb_menu .et_mobile_menu a{
       text-decoration: none;
     }
+/* --footer link divi-- */
+    body #page-container .et_pb_section .et_pb_button_0_tb_footer{
+      text-decoration: none;
+    }
+    body #page-container .et_pb_section .et_pb_button_1_tb_footer{
+      text-decoration: none;
+    }
+    .et_pb_text_0_tb_footer h1{
+      font-weight: normal;
+      line-height: 1em;
+
+    }
 
 
     
@@ -310,7 +322,7 @@ Den er simpel og enkel men samtidigt også kraftfuld og cremet.
           <p>Så tjek vores spændende udvalg af økologiske
 kaffebønner ud og vælg dem, <br> der passer bedst
 til dig og din smag</p>
-<a class="btn btn-light text-uppercase" href="http://monicaamundsen.com/kea/15_eksamen/slowcoffee/shop/">Se Produkter</a>
+<a class="btn btn-light text-uppercase" href="http://monicaamundsen.com/kea/15_eksamen/slowcoffee/produkter/">Se Produkter</a>
         </div>
       </div>
 
