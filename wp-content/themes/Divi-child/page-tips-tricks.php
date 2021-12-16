@@ -105,6 +105,10 @@ get_header();
       border: none;
     }
 
+    .et_pb_menu_0_tb_header.et_pb_menu .et_mobile_menu a{
+      text-decoration: none;
+    }
+
 
     
   
@@ -142,6 +146,10 @@ get_header();
 
     .parallax p{
       font-size: 20px;
+    }
+
+    .toggle-icon::after{
+      margin-top: -41px;
     }
 
 
